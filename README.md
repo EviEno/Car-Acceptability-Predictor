@@ -1,13 +1,16 @@
-# Car Acceptability Predictor
+# Dog Breed Prediction
 
-Predict Whether the Car is Acceptable after the servicing period, so there are 4 measures for this Good, Perfect, Acceptable, and Unacceptable. Basically, after we purchase a car, we have to give our car for servicing, and then if there are any defects or anything of that kind, post servicing we can get it and see whether it is acceptable or not. Even we can consider after manufacturing and before getting into production, whether the car is well acceptable to people in the public or not.
-
+In this project, we will see how to use Keras and TensorFlow to build, train, and test a convolutional neural network capable of identifying a dog's breed in a supplied image. This is a supervised learning problem, precisely a multiclass classification problem.
 
 ### TimeLine of the Project
-- Load the data into dataframe.
-- Performing preprocessing like handling missing values, feature creation, etc.
-- Perform Exploratory Data Analysis and get valuable insights from the data.
-- Deploy the machine learning Web app on the Microsoft Google Cloud Platform.
-- Integrating the model with the UI which is made using Flask and Bootstrap.
-- Perform Feature Selection and Select the best Algorithm which fits the data.
+- Load the data into data from Kaggle.
+- load labels csv for labels that contain images id and breed
+- checking the breed count
+- one-hot encoding on labels data prediction column
+- load the images, convert them to an array, and normalize them
+- checked the shape and size of the x and y data
+- building the model network architecture
+- split the data and fit it into the model and create an accurate plot
+- evaluate the model for accuracy score
+- using the model for prediction
 
